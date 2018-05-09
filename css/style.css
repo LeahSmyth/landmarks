@@ -1,0 +1,78 @@
+* {
+	padding:0em;
+	margin:0;
+	font-size:100%;
+	line-height:1em;}
+
+body{font-family: 'Open Sans', sans-serif;}
+
+p{  font-family: 'Open Sans', sans-serif;
+    padding:1% 10% 0.5em 10%;
+	line-height:1.5em;
+	font-size:1.2em;
+	color:#000000;}
+
+.para{padding-top:2%;}
+
+/*---Headings---*/
+
+h2{font-family: 'Dosis', sans-serif;
+    text-align:center;
+    color:#000000;
+    text-transform: uppercase;
+    font-size:5em;
+    font-weight: lighter;
+    padding-top:7%;}
+
+/*---Nav---*/
+
+nav{position:fixed;
+	width:100%;
+    padding:1em 0 1em 1em;
+    z-index:1;
+    background:rgba(255, 255, 255, .9);}
+
+.logo{width:15%;}
+
+/*---Images---*/
+
+.landmarks{display:inline-block;
+        position:relative;
+        margin-top:8%;
+        margin-bottom:8%;}
+
+.individualpage{width:50%;
+    float:left;
+    padding:3% 2% 0% 10%;
+    display: block;}
+
+.zoom{width:20%;
+    margin:0;
+    float:left;}
+
+.zoom {transition: transform .2s;}
+
+.zoom:hover {
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+
+/*---Footer---*/
+
+footer{position:fixed;
+    bottom:0;
+    font-size:1.1em;
+	color:#5ec2ae;
+    text-align:right;
+	margin-top:2em;;
+	width:100%;
+	background:rgba(255, 255, 255, .9);
+	text-decoration:none;}
+
+.leah-link{padding:1.5em 0 1.1em 0;}
+
+.leah-link a{color:#000000; text-decoration:none;padding-right:2%;}
+
+
+
